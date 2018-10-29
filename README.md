@@ -1,6 +1,6 @@
 # Node with Java 8 JRE Docker Image
 
-This image is built on the latest `node` image and installs Java 8 JRE as well. It is linked with the `node` image and should be updated everytime there is an update in there.
+This image is built on the latest `node:10` image and installs Java 8 JRE as well. It is linked with the `node:10` image and should be updated everytime there is an update in there.
 
 It simply adds Java 8 JRE from *jessie-backports* according to the description at [debian.org](https://wiki.debian.org/Java/). There is no override of any commands, everything should behave like the original `node` image.
 
