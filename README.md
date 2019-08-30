@@ -1,4 +1,4 @@
-# Node with Java 8 JRE Docker Image
+# Node with Java 11 JRE Docker Image
 
 This image is built on the latest `node:12-buster` image and installs Java 11 JRE (OpenJDK) as well. It is linked with the `node:12-buster` image and should be updated everytime there is an update in there.
 
